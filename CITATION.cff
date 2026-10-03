@@ -11,6 +11,8 @@ authors:
     given-names: "Thanayut"
   - family-names: "Prommai"
     given-names: "Tanaphong"
+  - family-names: "Binprathan"
+    given-names: "Aree"
 preferred-citation:
   type: article
   title: "When Low Response Does Not Mean No Effect: A Methodological Audit of Response-Derived Weak Supervision for Financial News"
@@ -21,5 +23,7 @@ preferred-citation:
       given-names: "Thanayut"
     - family-names: "Prommai"
       given-names: "Tanaphong"
+    - family-names: "Binprathan"
+      given-names: "Aree"
   journal: "FinTech"
   status: submitted

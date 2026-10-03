@@ -3,7 +3,7 @@
 Code, protocol, and aggregate results for the article
 
 > **When Low Response Does Not Mean No Effect: A Methodological Audit of Response-Derived Weak Supervision for Financial News**
-> Kittikorn Takham, Thanayut Changruenngam, and Tanaphong Prommai. *FinTech* (MDPI), submitted.
+> Kittikorn Takham, Thanayut Changruenngam, Tanaphong Prommai, and Aree Binprathan. *FinTech* (MDPI), submitted.
 
 The article audits response-derived fuzzy labeling (RDFL), a weak-labeling rule that sorts
 news-linked stock-days into negative, low, and positive response bands from the price response and
