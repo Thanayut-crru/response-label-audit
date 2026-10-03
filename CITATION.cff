@@ -3,6 +3,7 @@ message: "If you use this code, please cite the article below."
 title: "response-label-audit"
 type: software
 license: MIT
+repository-code: "https://github.com/Thanayut-crru/response-label-audit"
 authors:
   - family-names: "Takham"
     given-names: "Kittikorn"
