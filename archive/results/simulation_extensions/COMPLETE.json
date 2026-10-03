@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-09-28T07:37:02.563805+00:00",
+  "delta": 0.35,
+  "lambdas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "rule_accuracies": [
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "nonlinear_scenarios": [
+    "nonlinear",
+    "nonlinear_cancellation_085"
+  ],
+  "replications": 100,
+  "nonlinear_scale": 1.1261550822292152
+}

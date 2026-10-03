@@ -1,0 +1,101 @@
+{
+  "generated_at_utc": "2026-09-17T23:14:18.501978+00:00",
+  "status": "KNOWN_TRUTH_SIMULATION",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030
+  ],
+  "n_train": 2400,
+  "n_test": 1200,
+  "n_features": 20,
+  "confidence_min": 0.7,
+  "scenarios": {
+    "null_effect": {
+      "signal": 0.0,
+      "noise": 1.0,
+      "response": 1.0,
+      "volume_link": 0.0
+    },
+    "strong_signal": {
+      "signal": 1.0,
+      "noise": 0.45,
+      "response": 1.0,
+      "volume_link": 1.0
+    },
+    "high_noise": {
+      "signal": 1.0,
+      "noise": 1.8,
+      "response": 1.0,
+      "volume_link": 0.8
+    },
+    "cancellation": {
+      "signal": 1.0,
+      "noise": 0.7,
+      "response": 1.0,
+      "volume_link": 0.8
+    },
+    "anticipation": {
+      "signal": 1.0,
+      "noise": 0.7,
+      "response": 0.3,
+      "volume_link": 0.7
+    },
+    "stale_price": {
+      "signal": 1.0,
+      "noise": 0.7,
+      "response": 1.0,
+      "volume_link": 0.9
+    },
+    "nonrandom_missing": {
+      "signal": 1.0,
+      "noise": 0.7,
+      "response": 1.0,
+      "volume_link": 0.8
+    },
+    "regime_shift": {
+      "signal": 1.0,
+      "noise": 0.7,
+      "response": 1.0,
+      "volume_link": 0.8
+    }
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0"
+  },
+  "interpretation": {
+    "net_truth": "latent net return-window effect used for primary metrics",
+    "causal_warning": "in cancellation, false_causal_absence checks whether net-low labels hide strong opposing individual effects",
+    "oracle_class": "classification upper-bound diagnostic; its three-class centers are not an oracle for continuous-effect MSE"
+  }
+}

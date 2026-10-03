@@ -1,0 +1,9 @@
+{
+  "legacy_cancellation_rate": 0.9854962625470645,
+  "denominator": "sum of confidence times soft LOW_RESPONSE probability over selected training observations",
+  "threshold": "0.35 * SD(latent net training effect)",
+  "not": "held-out error, proportion of all cases, or proof that multiple semantic teachers fail",
+  "historical_results_metrics_used": false,
+  "real_confirmatory_status": "BLOCKED: timestamps, official calendar, price adjustment, near-duplicate events",
+  "margin_status": "retrospectively chosen sensitivity parameter; not a journal standard"
+}

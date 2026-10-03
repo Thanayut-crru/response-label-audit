@@ -1,0 +1,56 @@
+{
+  "timing_articles_possibly_after_decision_time_by_offset": {
+    "ICT_UTC+7": 0,
+    "US_Eastern_daylight_UTC-4": 166,
+    "US_Eastern_standard_UTC-5": 282,
+    "UTC": 0,
+    "UTC-3": 127
+  },
+  "calendar_and_price_basis": {
+    "panel_rows": 5824,
+    "weekdays_in_range": 785,
+    "weekdays_without_any_row": 57,
+    "missing_weekdays_on_fixed_date_holiday_or_substitute": 43,
+    "all_stock_zero_volume_weekdays": 28,
+    "zero_volume_weekdays_on_fixed_date_holiday_or_substitute": 3,
+    "zero_volume_rows_by_year_month": {
+      "2024-01": 2,
+      "2024-03": 44,
+      "2024-04": 41,
+      "2024-05": 63,
+      "2024-06": 50,
+      "2024-07": 61,
+      "2024-08": 44,
+      "2024-09": 77,
+      "2024-10": 56,
+      "2024-11": 2,
+      "2025-10": 8
+    },
+    "dates_with_partial_zero_volume": 54,
+    "zero_volume_rows": 448,
+    "zero_volume_rows_with_open_equal_close": 448,
+    "incoherent_ohlc_rows": 16,
+    "evaluation_rows_on_zero_volume_or_incoherent_rows": 0,
+    "evaluation_rows_without_panel_match": 0,
+    "articles_mapped": 9594,
+    "articles_mapped_to_zero_volume_or_incoherent_rows": 581
+  },
+  "near_duplicates_total_over_folds": {
+    "articles_ge_80": 898,
+    "bags_with_article_ge_80": 604,
+    "articles_ge_90": 447,
+    "bags_with_article_ge_90": 362,
+    "articles_ge_95": 276,
+    "bags_with_article_ge_95": 237
+  },
+  "test_articles_total": 6040,
+  "test_bags_total": 2197,
+  "gates_still_open": [
+    "recorded timestamps are not verified as first-availability times (backdating cannot be excluded)",
+    "source time zones are inferred from clock-time distributions, not documented",
+    "the trading calendar is not matched to an official SET calendar",
+    "zero-volume rows with Open equal to Close cluster in March-October 2024 and look like source gaps, not closures; their cause is undocumented",
+    "the adjustment vendor, date, and method (multiplicative or additive) are undocumented",
+    "paraphrased coverage of the same event across outlets is not detected by n-gram similarity"
+  ]
+}

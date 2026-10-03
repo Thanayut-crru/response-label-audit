@@ -1,0 +1,8 @@
+{
+  "source_root": "D:/ผอ/IEEE",
+  "study_status": "RETROSPECTIVE_METHODS_STUDY_NOT_PREREGISTERED",
+  "simulation": {"replications": 100, "seed_start": 21001, "n_train": 2400, "n_test": 1200, "features": 20, "fixed_thresholds": [0.2, 0.35, 0.5], "primary_threshold": 0.35},
+  "inference": {"bootstrap_iterations": 10000, "seed": 39001, "block_lengths": [10, 20, 40], "primary_block_length": 20, "relative_equivalence_margin": 0.02},
+  "real_data": {"purge_observed_sessions": 5, "seeds": [11, 23, 42, 71, 101], "status": "EXPLORATORY_UNVERIFIED_TIMING_CALENDAR_ADJUSTMENTS"},
+  "prohibited_evidence": ["results/metrics/", "PhaFin-FT-Random", "in-sample PhaFin-FT performance", "val_r as evidence of sentiment or forecasting quality"]
+}

@@ -1,0 +1,31 @@
+{
+  "completed_utc": "2026-09-20T14:08:55.837608+00:00",
+  "datasets": {
+    "purged_pilot": {
+      "n_dates": 403,
+      "n_stock_days": 2197,
+      "iterations": 10000
+    },
+    "historical_p2c": {
+      "n_dates": 356,
+      "n_stock_days": 1980,
+      "iterations": 10000
+    }
+  },
+  "comparators": [
+    "ZERO",
+    "DIRECT_HUBER",
+    "ORDINARY_SOFT",
+    "HARD_FPA"
+  ],
+  "block_lengths": [
+    10,
+    20,
+    40
+  ],
+  "alpha": 0.05,
+  "power_targets": [
+    0.8,
+    0.9
+  ]
+}

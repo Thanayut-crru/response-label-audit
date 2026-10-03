@@ -1,0 +1,13 @@
+{
+  "completed_utc": "2026-09-28T04:10:32.755600+00:00",
+  "cells": 8,
+  "evaluation_dates": 356,
+  "evaluation_stock_days": 1980,
+  "warmup_block": "2024-08-01",
+  "reproduction_max_abs_gap": {
+    "purge5_excl_vs_fresh_pilot": 9.996344030316351e-17,
+    "purge0_noexcl_vs_p2b": 4.0689765283281193e-10,
+    "imported_calibrator_vs_p2c": 9.996344030316351e-17
+  },
+  "scale": "training SD before the 5-session purged boundary"
+}

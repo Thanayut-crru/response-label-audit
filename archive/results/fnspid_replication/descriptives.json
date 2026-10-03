@@ -1,0 +1,34 @@
+{
+  "window": [
+    "2017-06-12",
+    "2020-06-11"
+  ],
+  "blocks_dropped_by_rule": 0,
+  "evaluated_blocks": 7,
+  "evaluation_dates": 426,
+  "evaluation_stock_days": 1874,
+  "calibration_warmup_block": "2018-10-01",
+  "articles_mapped": 8080,
+  "text_bags": 2793,
+  "retained_labels": 1656,
+  "label_counts": {
+    "LOW_RESPONSE": 714,
+    "NEGATIVE": 483,
+    "POSITIVE": 459
+  },
+  "low_response_bags_with_2plus_articles": 0.5266106442577031,
+  "prediction_sd_uncalibrated": {
+    "DIRECT_HUBER": 0.0015537891525103644,
+    "FPA_SOFT": 0.004490896263421028,
+    "HARD_FPA": 0.004772140162398522,
+    "ORDINARY_SOFT": 0.0014825938047611773
+  },
+  "prediction_sd_calibrated": {
+    "DIRECT_HUBER": 0.0015013487654801884,
+    "FPA_SOFT": 0.0012569599146441603,
+    "HARD_FPA": 0.0011927005135401578,
+    "ORDINARY_SOFT": 0.001243042618418029
+  },
+  "outcome_sd": 0.01970335531125328,
+  "protocol_frozen_utc": "2026-09-28T07:27:01.946114+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-09-30T17:41:31.144136+00:00",
+  "cells": 11,
+  "contrasts": 6,
+  "random_draws": 5,
+  "reproduction_max_abs_gap": {
+    "RDFL|retained|confidence": 9.985502008591496e-17,
+    "ORD|ordinary_eligible|uniform": 9.974659986866641e-17
+  },
+  "evaluation_dates": 403
+}

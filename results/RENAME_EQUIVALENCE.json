@@ -1,0 +1,720 @@
+{
+  "checked_utc": "2026-09-30T18:06:44.995949+00:00",
+  "files": 118,
+  "summary": {
+    "identical": 103,
+    "identical lines": 12,
+    "identical content, column order differs": 3
+  },
+  "problems": [],
+  "details": [
+    {
+      "original": "equivalence_power/COMPLETE.json",
+      "rerun": "equivalence_power/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "equivalence_power/equivalence_curve.csv",
+      "rerun": "equivalence_power/equivalence_curve.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "equivalence_power/equivalence_summary.csv",
+      "rerun": "equivalence_power/equivalence_summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "equivalence_power/REPORT.md",
+      "rerun": "equivalence_power/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "factorial_ablation/cell_inference.csv",
+      "rerun": "factorial_ablation/cell_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "factorial_ablation/COMPLETE.json",
+      "rerun": "factorial_ablation/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "factorial_ablation/factor_effects.csv",
+      "rerun": "factorial_ablation/factor_effects.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "factorial_ablation/fold_manifest.csv",
+      "rerun": "factorial_ablation/fold_manifest.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "factorial_ablation/predictions.csv",
+      "rerun": "factorial_ablation/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "factorial_ablation/REPORT.md",
+      "rerun": "factorial_ablation/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_prepared/COMPLETE.json",
+      "rerun": "fnspid_prepared/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_BK.csv",
+      "rerun": "fnspid_prepared/financial/panel_BK.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_C.csv",
+      "rerun": "fnspid_prepared/financial/panel_C.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_COF.csv",
+      "rerun": "fnspid_prepared/financial/panel_COF.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_JPM.csv",
+      "rerun": "fnspid_prepared/financial/panel_JPM.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_PNC.csv",
+      "rerun": "fnspid_prepared/financial/panel_PNC.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_TFC.csv",
+      "rerun": "fnspid_prepared/financial/panel_TFC.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_USB.csv",
+      "rerun": "fnspid_prepared/financial/panel_USB.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/financial/panel_WFC.csv",
+      "rerun": "fnspid_prepared/financial/panel_WFC.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/news.csv",
+      "rerun": "fnspid_prepared/news.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/p1_labels/article_to_stock_day_pilot.csv",
+      "rerun": "fnspid_prepared/p1_labels/article_to_stock_day_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/p1_labels/PILOT_REPORT.md",
+      "rerun": "fnspid_prepared/p1_labels/PILOT_REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_prepared/p1_labels/pilot_summary.json",
+      "rerun": "fnspid_prepared/p1_labels/pilot_summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_prepared/p1_labels/retained_weak_labels_pilot.csv",
+      "rerun": "fnspid_prepared/p1_labels/retained_weak_labels_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_prepared/p1_labels/stock_day_labels_pilot.csv",
+      "rerun": "fnspid_prepared/p1_labels/stock_day_labels_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/calibrated_predictions.csv",
+      "rerun": "fnspid_replication/calibrated_predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/COMPLETE.json",
+      "rerun": "fnspid_replication/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_replication/component_predictions.csv",
+      "rerun": "fnspid_replication/component_predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/component_training_sizes.csv",
+      "rerun": "fnspid_replication/component_training_sizes.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/contrasts.csv",
+      "rerun": "fnspid_replication/contrasts.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/descriptives.json",
+      "rerun": "fnspid_replication/descriptives.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_replication/fold_manifest.csv",
+      "rerun": "fnspid_replication/fold_manifest.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/hypotheses.csv",
+      "rerun": "fnspid_replication/hypotheses.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/HYPOTHESES.md",
+      "rerun": "fnspid_replication/HYPOTHESES.md",
+      "status": "identical content, column order differs",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fnspid_replication/paired_inference.csv",
+      "rerun": "fnspid_replication/paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fnspid_replication/predictions.csv",
+      "rerun": "fnspid_replication/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fpa_component_ablation/cells_vs_zero.csv",
+      "rerun": "rdfl_component_ablation/cells_vs_zero.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fpa_component_ablation/COMPLETE.json",
+      "rerun": "rdfl_component_ablation/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fpa_component_ablation/contrasts.csv",
+      "rerun": "rdfl_component_ablation/contrasts.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fpa_component_ablation/factor_effects.csv",
+      "rerun": "rdfl_component_ablation/factor_effects.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fpa_component_ablation/predictions.csv",
+      "rerun": "rdfl_component_ablation/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "fpa_component_ablation/REPORT.md",
+      "rerun": "rdfl_component_ablation/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "fpa_component_ablation/training_sizes.csv",
+      "rerun": "rdfl_component_ablation/training_sizes.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/calibrated_predictions.csv",
+      "rerun": "near_duplicate_sensitivity/calibrated_predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/COMPLETE.json",
+      "rerun": "near_duplicate_sensitivity/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "near_duplicate_sensitivity/fold_manifest.csv",
+      "rerun": "near_duplicate_sensitivity/fold_manifest.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/inference.csv",
+      "rerun": "near_duplicate_sensitivity/inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/prediction_dispersion.csv",
+      "rerun": "near_duplicate_sensitivity/prediction_dispersion.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/predictions.csv",
+      "rerun": "near_duplicate_sensitivity/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "near_duplicate_sensitivity/REPORT.md",
+      "rerun": "near_duplicate_sensitivity/REPORT.md",
+      "status": "identical content, column order differs",
+      "max_abs_gap": null
+    },
+    {
+      "original": "observable_bounds/COMPLETE.json",
+      "rerun": "observable_bounds/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "observable_bounds/replications.csv",
+      "rerun": "observable_bounds/replications.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "observable_bounds/REPORT.md",
+      "rerun": "observable_bounds/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "observable_bounds/summary.csv",
+      "rerun": "observable_bounds/summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "per_block/COMPLETE.json",
+      "rerun": "per_block/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "per_block/REPORT.md",
+      "rerun": "per_block/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "per_block/summary.json",
+      "rerun": "per_block/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "per_block/thai_fresh_pilot.csv",
+      "rerun": "per_block/thai_fresh_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "per_block/us_calibrated.csv",
+      "rerun": "per_block/us_calibrated.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "per_block/us_uncalibrated.csv",
+      "rerun": "per_block/us_uncalibrated.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "power/COMPLETE.json",
+      "rerun": "power/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "power/power_curve.csv",
+      "rerun": "power/power_curve.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "power/power_summary.csv",
+      "rerun": "power/power_summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "power/REPORT.md",
+      "rerun": "power/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "prediction_dispersion/COMPLETE.json",
+      "rerun": "prediction_dispersion/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "prediction_dispersion/fnspid_components.csv",
+      "rerun": "prediction_dispersion/fnspid_components.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "prediction_dispersion/REPORT.md",
+      "rerun": "prediction_dispersion/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "prediction_dispersion/summary.json",
+      "rerun": "prediction_dispersion/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "prediction_dispersion/thai_components.csv",
+      "rerun": "prediction_dispersion/thai_components.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "provenance_checks/calendar_exceptions.csv",
+      "rerun": "provenance_checks/calendar_exceptions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "provenance_checks/COMPLETE.json",
+      "rerun": "provenance_checks/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "provenance_checks/near_duplicates_by_fold.csv",
+      "rerun": "provenance_checks/near_duplicates_by_fold.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "provenance_checks/price_basis_by_year.csv",
+      "rerun": "provenance_checks/price_basis_by_year.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "provenance_checks/REPORT.md",
+      "rerun": "provenance_checks/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "provenance_checks/summary.json",
+      "rerun": "provenance_checks/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "provenance_checks/timezone_scenarios.csv",
+      "rerun": "provenance_checks/timezone_scenarios.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "provenance_checks/timing_by_source.csv",
+      "rerun": "provenance_checks/timing_by_source.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "purged_pilot/COMPLETE.json",
+      "rerun": "purged_pilot/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "purged_pilot/fold_manifest.csv",
+      "rerun": "purged_pilot/fold_manifest.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "purged_pilot/predictions.csv",
+      "rerun": "purged_pilot/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/absence_summary.csv",
+      "rerun": "report/absence_summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/claim_audit.json",
+      "rerun": "report/claim_audit.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "report/COMPLETE.json",
+      "rerun": "report/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "report/historical_p2c_metrics.csv",
+      "rerun": "report/historical_p2c_metrics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/historical_p2c_paired_inference.csv",
+      "rerun": "report/historical_p2c_paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/historical_p2c_slices.csv",
+      "rerun": "report/historical_p2c_slices.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/purged_pilot_metrics.csv",
+      "rerun": "report/purged_pilot_metrics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/purged_pilot_paired_inference.csv",
+      "rerun": "report/purged_pilot_paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/purged_pilot_slices.csv",
+      "rerun": "report/purged_pilot_slices.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "report/REPORT.md",
+      "rerun": "report/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "report/simulation_paired_inference.csv",
+      "rerun": "report/simulation_paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation/absence_diagnostics.csv",
+      "rerun": "simulation/absence_diagnostics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation/COMPLETE.json",
+      "rerun": "simulation/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "simulation/means.csv",
+      "rerun": "simulation/means.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation/observational_equivalence.json",
+      "rerun": "simulation/observational_equivalence.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "simulation/replication_metrics.csv",
+      "rerun": "simulation/replication_metrics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/COMPLETE.json",
+      "rerun": "simulation_extensions/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "simulation_extensions/lambda_replications.csv",
+      "rerun": "simulation_extensions/lambda_replications.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/lambda_summary.csv",
+      "rerun": "simulation_extensions/lambda_summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/nonlinear_diagnostics.csv",
+      "rerun": "simulation_extensions/nonlinear_diagnostics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/nonlinear_means.csv",
+      "rerun": "simulation_extensions/nonlinear_means.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/nonlinear_metrics.csv",
+      "rerun": "simulation_extensions/nonlinear_metrics.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/nonlinear_paired_inference.csv",
+      "rerun": "simulation_extensions/nonlinear_paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/REPORT.md",
+      "rerun": "simulation_extensions/REPORT.md",
+      "status": "identical content, column order differs",
+      "max_abs_gap": null
+    },
+    {
+      "original": "simulation_extensions/rule_replications.csv",
+      "rerun": "simulation_extensions/rule_replications.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "simulation_extensions/rule_summary.csv",
+      "rerun": "simulation_extensions/rule_summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "staleness/article_staleness.csv",
+      "rerun": "staleness/article_staleness.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "staleness/bag_staleness.csv",
+      "rerun": "staleness/bag_staleness.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "staleness/COMPLETE.json",
+      "rerun": "staleness/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "staleness/low_response_by_staleness_quintile.csv",
+      "rerun": "staleness/low_response_by_staleness_quintile.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "staleness/REPORT.md",
+      "rerun": "staleness/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "staleness/summary.json",
+      "rerun": "staleness/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "threshold_sensitivity/cells_vs_zero.csv",
+      "rerun": "threshold_sensitivity/cells_vs_zero.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "threshold_sensitivity/COMPLETE.json",
+      "rerun": "threshold_sensitivity/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "threshold_sensitivity/prediction_dispersion.csv",
+      "rerun": "threshold_sensitivity/prediction_dispersion.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "threshold_sensitivity/predictions.csv",
+      "rerun": "threshold_sensitivity/predictions.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "threshold_sensitivity/REPORT.md",
+      "rerun": "threshold_sensitivity/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "threshold_sensitivity/training_sizes.csv",
+      "rerun": "threshold_sensitivity/training_sizes.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    }
+  ]
+}

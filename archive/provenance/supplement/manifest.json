@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-09-28T03:42:41.695578+00:00",
+  "source_root": "D:\\ผอ\\IEEE",
+  "files": [
+    {
+      "source": "D:\\ผอ\\IEEE\\experiments\\fpa_phafin\\05_calibrate_text_predictions.py",
+      "snapshot": "provenance\\supplement\\source_code\\05_calibrate_text_predictions.py",
+      "sha256": "6f1247903c8bcfed3108ca2d7e779849f11815ad574405ebfae56d2096bd23b6",
+      "bytes": 10584
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p2b_tfidf_label_methods\\predictions.csv",
+      "snapshot": "provenance\\supplement\\historical\\p2b_tfidf_label_methods\\predictions.csv",
+      "sha256": "24f709802847eb054dbc4b42245214b431f53dc2d47dc03e3af264f6971dbc25",
+      "bytes": 1471959
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p2b_tfidf_label_methods\\fold_manifest.csv",
+      "snapshot": "provenance\\supplement\\historical\\p2b_tfidf_label_methods\\fold_manifest.csv",
+      "sha256": "e395aa93ec2da2f393ce6931309e73d44f0d84b32952d1942e2653ab705425c5",
+      "bytes": 541
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p2b_tfidf_label_methods\\summary.json",
+      "snapshot": "provenance\\supplement\\historical\\p2b_tfidf_label_methods\\summary.json",
+      "sha256": "f3d1d06dbea1df02e27deb118cba0066f85ca78a3db455db5680623c5f3a3f8c",
+      "bytes": 3563
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_BAY.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_BAY.csv",
+      "sha256": "207d54f3d9caf9a093ee175108a5e26a82b5a6456ee07d5eecd82b3b26773c71",
+      "bytes": 218988
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_BBL.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_BBL.csv",
+      "sha256": "5e33ccb291623029390bc023893495f938fed8435cb84479702b28c1f47442c8",
+      "bytes": 235590
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_KBANK.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_KBANK.csv",
+      "sha256": "5d7229776e1efdd59f9732ed6d9a728deb1ae4a8a79ac67eb75b17d409dd3428",
+      "bytes": 228886
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_KKP.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_KKP.csv",
+      "sha256": "1e31379ee9663414964ba6e2c1bc0e880a10c63b97eb9dbe9c9d7169f98dc962",
+      "bytes": 221530
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_KTB.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_KTB.csv",
+      "sha256": "eb94df9e9935fe3cadebf5387f19371ded72ea49dc42f1553cabfffe54dd2ca8",
+      "bytes": 228610
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_SCB.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_SCB.csv",
+      "sha256": "a8ec677e70cfbcac9bebc34fcb2d0c492f498514cd69fad946984b987cb4393e",
+      "bytes": 236068
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_TISCO.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_TISCO.csv",
+      "sha256": "4c2dd3f3ddd66ce05364d990f861eca3ea39fd97f057f8cd423d0066cea7f4d8",
+      "bytes": 222412
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\data\\raw\\financial\\panel_TTB.csv",
+      "snapshot": "provenance\\supplement\\raw_financial\\panel_TTB.csv",
+      "sha256": "00126359d26d36ef0e18f4d45701309fffbc495b226d0e4d1b9ee5d82362498c",
+      "bytes": 235675
+    }
+  ],
+  "purpose": "r5 factorial ablation and provenance checks",
+  "excluded": "results/metrics/ and random-FT performance"
+}

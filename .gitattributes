@@ -1,0 +1,3 @@
+# Store every file byte for byte. Line-ending conversion would change the SHA-256 of
+# hash-locked files and make scripts 20 and 21 refuse to run.
+* -text

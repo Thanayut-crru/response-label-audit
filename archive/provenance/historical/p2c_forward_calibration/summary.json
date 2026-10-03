@@ -1,0 +1,111 @@
+{
+  "generated_at_utc": "2026-09-17T23:01:53.266094+00:00",
+  "status": "EXPLORATORY_PILOT_AFTER_P2B_REVIEW",
+  "calibration": "global intercept/slope ridge fitted only on completed prior OOS blocks",
+  "warmup_block_excluded": "2024-08-01_2024-10-31",
+  "evaluated_blocks": 6,
+  "test_rows_per_method": 1980,
+  "aggregate_metrics": [
+    {
+      "block": "ALL",
+      "method": "DIRECT_HUBER",
+      "n": 1980,
+      "rmse": 0.011050136776456394,
+      "mae": 0.008044398424783269,
+      "directional_accuracy_all": 0.3939393939393939,
+      "directional_accuracy_actual_nonzero": 0.4921135646687697,
+      "normalized_mse": 1.041792079320026
+    },
+    {
+      "block": "ALL",
+      "method": "FPA_SOFT",
+      "n": 1980,
+      "rmse": 0.01097502009359517,
+      "mae": 0.007972486953017305,
+      "directional_accuracy_all": 0.403030303030303,
+      "directional_accuracy_actual_nonzero": 0.5034700315457413,
+      "normalized_mse": 1.0242905811783463
+    },
+    {
+      "block": "ALL",
+      "method": "HARD_FPA",
+      "n": 1980,
+      "rmse": 0.010975498827274749,
+      "mae": 0.007973424474993456,
+      "directional_accuracy_all": 0.40606060606060607,
+      "directional_accuracy_actual_nonzero": 0.5072555205047319,
+      "normalized_mse": 1.024720519193348
+    },
+    {
+      "block": "ALL",
+      "method": "ORDINARY_SOFT",
+      "n": 1980,
+      "rmse": 0.010968503408317495,
+      "mae": 0.007957057493070643,
+      "directional_accuracy_all": 0.3994949494949495,
+      "directional_accuracy_actual_nonzero": 0.49905362776025236,
+      "normalized_mse": 1.022540742793928
+    },
+    {
+      "block": "ALL",
+      "method": "ZERO",
+      "n": 1980,
+      "rmse": 0.010969306457999739,
+      "mae": 0.007823284177585323,
+      "directional_accuracy_all": 0.1994949494949495,
+      "directional_accuracy_actual_nonzero": 0.0,
+      "normalized_mse": 1.0238140401608748
+    }
+  ],
+  "fpa_pairwise_inference": [
+    {
+      "competitor": "ZERO",
+      "estimand": "calibrated normalized loss(competitor) - loss(FPA); positive favors FPA",
+      "n_dates": 356,
+      "mean_difference": -0.0025689041864728596,
+      "ci_95": [
+        -0.013052817707625565,
+        0.008355133646745005
+      ],
+      "raw_two_sided_p": 0.6202759448110378,
+      "holm_adjusted_p": 0.6394721055788842
+    },
+    {
+      "competitor": "DIRECT_HUBER",
+      "estimand": "calibrated normalized loss(competitor) - loss(FPA); positive favors FPA",
+      "n_dates": 356,
+      "mean_difference": 0.018039033622509568,
+      "ci_95": [
+        0.005131459187796257,
+        0.03310132224067143
+      ],
+      "raw_two_sided_p": 0.010997800439912017,
+      "holm_adjusted_p": 0.04399120175964807
+    },
+    {
+      "competitor": "HARD_FPA",
+      "estimand": "calibrated normalized loss(competitor) - loss(FPA); positive favors FPA",
+      "n_dates": 356,
+      "mean_difference": 0.00038576686280555016,
+      "ci_95": [
+        -0.00015898165556401945,
+        0.0009467919961712336
+      ],
+      "raw_two_sided_p": 0.17896420715856828,
+      "holm_adjusted_p": 0.5368926214757048
+    },
+    {
+      "competitor": "ORDINARY_SOFT",
+      "estimand": "calibrated normalized loss(competitor) - loss(FPA); positive favors FPA",
+      "n_dates": 356,
+      "mean_difference": -0.0022942491960606702,
+      "ci_95": [
+        -0.006873214641974917,
+        0.002187828396156402
+      ],
+      "raw_two_sided_p": 0.3197360527894421,
+      "holm_adjusted_p": 0.6394721055788842
+    }
+  ],
+  "interpretation_guard": "This analysis was motivated after reviewing P2b and cannot serve as untouched confirmation."
+}

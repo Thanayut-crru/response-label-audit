@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "response-label-audit"
+type: software
+license: MIT
+authors:
+  - family-names: "Takham"
+    given-names: "Kittikorn"
+  - family-names: "Changruenngam"
+    given-names: "Thanayut"
+  - family-names: "Prommai"
+    given-names: "Tanaphong"
+preferred-citation:
+  type: article
+  title: "When Low Response Does Not Mean No Effect: A Methodological Audit of Response-Derived Weak Supervision for Financial News"
+  authors:
+    - family-names: "Takham"
+      given-names: "Kittikorn"
+    - family-names: "Changruenngam"
+      given-names: "Thanayut"
+    - family-names: "Prommai"
+      given-names: "Tanaphong"
+  journal: "FinTech"
+  status: submitted

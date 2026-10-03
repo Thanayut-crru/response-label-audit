@@ -1,0 +1,115 @@
+{
+  "generated_at_utc": "2026-09-17T22:59:45.673361+00:00",
+  "status": "PILOT_ONLY_NOT_CONFIRMATORY",
+  "representation": "training-window-only Thai character TF-IDF (3-5 grams)",
+  "outer_blocks": 7,
+  "test_rows_per_method": 2197,
+  "seeds_ensembled": [
+    11,
+    23,
+    42,
+    71,
+    101
+  ],
+  "aggregate_metrics": [
+    {
+      "block": "ALL",
+      "method": "DIRECT_HUBER",
+      "n": 2197,
+      "rmse": 0.011223117345753396,
+      "mae": 0.008131024193096794,
+      "directional_accuracy_all": 0.404642694583523,
+      "directional_accuracy_actual_nonzero": 0.5028280542986425,
+      "normalized_mse": 1.0795743784409533
+    },
+    {
+      "block": "ALL",
+      "method": "FPA_SOFT",
+      "n": 2197,
+      "rmse": 0.011899280350759874,
+      "mae": 0.0088746390422066,
+      "directional_accuracy_all": 0.40737369139736,
+      "directional_accuracy_actual_nonzero": 0.5062217194570136,
+      "normalized_mse": 1.2502476958967081
+    },
+    {
+      "block": "ALL",
+      "method": "HARD_FPA",
+      "n": 2197,
+      "rmse": 0.011994594598387935,
+      "mae": 0.008972020564848027,
+      "directional_accuracy_all": 0.4060081929904415,
+      "directional_accuracy_actual_nonzero": 0.504524886877828,
+      "normalized_mse": 1.2760074680278644
+    },
+    {
+      "block": "ALL",
+      "method": "ORDINARY_SOFT",
+      "n": 2197,
+      "rmse": 0.0112422944819197,
+      "mae": 0.008167088840980432,
+      "directional_accuracy_all": 0.39644970414201186,
+      "directional_accuracy_actual_nonzero": 0.49264705882352944,
+      "normalized_mse": 1.080513316906214
+    },
+    {
+      "block": "ALL",
+      "method": "ZERO",
+      "n": 2197,
+      "rmse": 0.011180802150357034,
+      "mae": 0.007975922079328776,
+      "directional_accuracy_all": 0.1952662721893491,
+      "directional_accuracy_actual_nonzero": 0.0,
+      "normalized_mse": 1.065035216458535
+    }
+  ],
+  "fpa_pairwise_inference": [
+    {
+      "competitor": "DIRECT_HUBER",
+      "estimand": "normalized squared loss(competitor) - loss(FPA_SOFT); positive favors FPA",
+      "n_dates": 403,
+      "mean_difference": -0.1875855800185285,
+      "ci_95": [
+        -0.24726269166300263,
+        -0.12959082252817067
+      ],
+      "raw_two_sided_p": 0.0001999600079984003,
+      "holm_adjusted_p": 0.0005998800239952009
+    },
+    {
+      "competitor": "HARD_FPA",
+      "estimand": "normalized squared loss(competitor) - loss(FPA_SOFT); positive favors FPA",
+      "n_dates": 403,
+      "mean_difference": 0.0270937252388897,
+      "ci_95": [
+        0.01856025724949275,
+        0.035270459827548284
+      ],
+      "raw_two_sided_p": 0.0001999600079984003,
+      "holm_adjusted_p": 0.0005998800239952009
+    },
+    {
+      "competitor": "ORDINARY_SOFT",
+      "estimand": "normalized squared loss(competitor) - loss(FPA_SOFT); positive favors FPA",
+      "n_dates": 403,
+      "mean_difference": -0.17739207444430352,
+      "ci_95": [
+        -0.22126562240207998,
+        -0.13358656134726868
+      ],
+      "raw_two_sided_p": 0.0001999600079984003,
+      "holm_adjusted_p": 0.0005998800239952009
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0"
+  },
+  "limitations": [
+    "TF-IDF is a representation diagnostic, not the final Transformer",
+    "P0 timestamp/calendar/price-adjustment gates remain unresolved",
+    "text-only news-day evaluation; downstream financial fusion is a later phase"
+  ]
+}

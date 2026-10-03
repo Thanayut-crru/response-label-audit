@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-09-19T14:38:32.974910+00:00",
+  "source_root": "D:\\ผอ\\IEEE",
+  "files": [
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p0_audit\\AUDIT_REPORT.md",
+      "snapshot": "provenance\\historical\\p0_audit\\AUDIT_REPORT.md",
+      "sha256": "d8699e47d6b27c08a7ae96fb8929ed7e50d83ca688e458138d58400025ab4d3b",
+      "bytes": 3558
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p0_audit\\audit.json",
+      "snapshot": "provenance\\historical\\p0_audit\\audit.json",
+      "sha256": "a2ca96ee54b022c2ab8bcb3db488e4a9190230f75a6c8d04c99b3dfe12973c51",
+      "bytes": 3103
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p3_known_truth_simulation\\replication_metrics.csv",
+      "snapshot": "provenance\\historical\\p3_known_truth_simulation\\replication_metrics.csv",
+      "sha256": "d269a9d7a1190a171a3bb3567804d739314686767a2092046f6c321842fdeab0",
+      "bytes": 276166
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p3_known_truth_simulation\\simulation_config.json",
+      "snapshot": "provenance\\historical\\p3_known_truth_simulation\\simulation_config.json",
+      "sha256": "5bb949daca7299c05e51ca3ca7f0433ca29eaa01c4cd6b9e8616630976359132",
+      "bytes": 2048
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p2c_forward_calibration\\calibrated_predictions.csv",
+      "snapshot": "provenance\\historical\\p2c_forward_calibration\\calibrated_predictions.csv",
+      "sha256": "3931b09deb0ee24ef651c40d414dc2a1c74795ef342b9649831b2719d8bbdbc9",
+      "bytes": 1756266
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p2c_forward_calibration\\summary.json",
+      "snapshot": "provenance\\historical\\p2c_forward_calibration\\summary.json",
+      "sha256": "8a936136bebe59563d2ec2cc0d7094e9ab9721f4a4062b37f9f46af45ecedc36",
+      "bytes": 3700
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p1_pilot_labels\\article_to_stock_day_pilot.csv",
+      "snapshot": "provenance\\historical\\p1_pilot_labels\\article_to_stock_day_pilot.csv",
+      "sha256": "a9ef963c113546fa393d030e4c1085a0064e5e48df20d88c318cd7ab430d6b1e",
+      "bytes": 8449505
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\results\\fpa_phafin\\p1_pilot_labels\\stock_day_labels_pilot.csv",
+      "snapshot": "provenance\\historical\\p1_pilot_labels\\stock_day_labels_pilot.csv",
+      "sha256": "7b1908919b7e44545d9e5c7a01aa9e1f77546763851b043d1940d6b72bb78973",
+      "bytes": 2571410
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\experiments\\fpa_phafin\\06_run_known_truth_simulation.py",
+      "snapshot": "provenance\\source_code\\06_run_known_truth_simulation.py",
+      "sha256": "91c490affdfa35ea6ff09705ff4318987990032e3bb577ec61c8e2e97c228ae9",
+      "bytes": 20683
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\experiments\\fpa_phafin\\04_run_tfidf_label_methods.py",
+      "snapshot": "provenance\\source_code\\04_run_tfidf_label_methods.py",
+      "sha256": "1bfd9f9b9d9130ae983954a7c6709e0a107425bccb9267b51b924eab0b4c8065",
+      "bytes": 16752
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\experiments\\fpa_phafin\\01_build_pilot_labels.py",
+      "snapshot": "provenance\\source_code\\01_build_pilot_labels.py",
+      "sha256": "453224727bf40d04c74e87ac7df577e40844a2df0400d7add047354cac6e3709",
+      "bytes": 16481
+    },
+    {
+      "source": "D:\\ผอ\\IEEE\\scripts\\00_finetune_phayathai.py",
+      "snapshot": "provenance\\source_code\\00_finetune_phayathai.py",
+      "sha256": "3c3e686f25cffc2f49eb7488e7a38d79eac9b29b1d8fde23f6db979c575929cd",
+      "bytes": 16862
+    }
+  ],
+  "excluded": "results/metrics/ and random-FT performance"
+}

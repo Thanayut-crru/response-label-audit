@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# FNSPID is CC BY-NC 4.0 and is never committed; download it here (see README)
+external/
+
+# Row-level files that runs write but this repository does not redistribute
+results/**/predictions.csv
+results/**/calibrated_predictions.csv
+results/**/component_predictions.csv
+results/staleness/article_staleness.csv
+results/staleness/bag_staleness.csv
+results/fnspid_prepared/financial/
+results/fnspid_prepared/news.csv
+results/fnspid_prepared/p1_labels/
+results/simulation*/checkpoints/
+results/simulation_smoke/
+
+# Snapshots of the original Thai data (not redistributed; hashes are in archive/provenance/*manifest.json)
+provenance/historical/p1_pilot_labels/
+provenance/historical/p2c_forward_calibration/calibrated_predictions.csv
+provenance/supplement/historical/p2b_tfidf_label_methods/predictions.csv
+provenance/supplement/raw_financial/

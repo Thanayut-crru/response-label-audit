@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-09-30T17:54:10.735962+00:00",
+  "status": "EXPLORATORY_POST_HOC",
+  "cells": 8,
+  "datasets": [
+    "thai",
+    "fnspid"
+  ],
+  "reproduction_gates": {
+    "thai_labels_max_gap": 1.0325074129013956e-13,
+    "thai_rdfl_soft_max_gap": 1.3877787807814457e-16,
+    "fnspid_labels_max_gap": 1.928457393773897e-13,
+    "fnspid_rdfl_soft_max_gap": 1.3183898417423734e-16
+  },
+  "all_cells_worse_beyond_margin": {
+    "fnspid": false,
+    "thai": true
+  }
+}

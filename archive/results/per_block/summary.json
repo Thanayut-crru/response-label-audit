@@ -1,0 +1,23 @@
+{
+  "thai_fresh_pilot": {
+    "blocks": 7,
+    "blocks_fpa_worse_than_zero": 7,
+    "min_improvement_vs_zero": -0.27646423278731724,
+    "max_improvement_vs_zero": -0.07320759423236267,
+    "pooled_improvement_vs_zero": -0.1604660090019172
+  },
+  "us_uncalibrated": {
+    "blocks": 7,
+    "blocks_fpa_worse_than_zero": 7,
+    "min_improvement_vs_zero": -0.45495661049524316,
+    "max_improvement_vs_zero": -0.013573732607046862,
+    "pooled_improvement_vs_zero": -0.07874300984097204
+  },
+  "us_calibrated": {
+    "blocks": 6,
+    "blocks_fpa_worse_than_zero": 4,
+    "min_improvement_vs_zero": -0.17557128344754291,
+    "max_improvement_vs_zero": 0.008818351039736827,
+    "pooled_improvement_vs_zero": -0.014770020806323059
+  }
+}

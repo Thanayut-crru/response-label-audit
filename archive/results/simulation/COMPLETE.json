@@ -1,0 +1,7 @@
+{
+  "completed_utc": "2026-09-19T14:39:26.020208+00:00",
+  "replications_per_scenario": 100,
+  "scenarios": 10,
+  "positive_control_direct_skill": 0.9982440242857052,
+  "scope": "FPA outcome-derived labels, not semantic teacher ensembles"
+}

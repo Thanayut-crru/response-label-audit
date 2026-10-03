@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-17T17:24:35.612056+00:00",
+  "root": "D:\\ผอ\\IEEE",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "3.0.5",
+  "overall_status": "BLOCKED_FOR_CONFIRMATORY_RUN",
+  "news": {
+    "path": "D:\\ผอ\\IEEE\\data\\raw\\All_news_sentiment.csv",
+    "rows": 11440,
+    "columns": [
+      "Date",
+      "Symbol",
+      "Source",
+      "Language",
+      "Headline",
+      "Description",
+      "Text",
+      "URL"
+    ],
+    "missing_required_columns": [],
+    "date_min": "2023-04-24T06:20:05",
+    "date_max": "2026-04-24T20:47:10",
+    "invalid_dates": 0,
+    "timezone_in_schema": false,
+    "unique_urls": 8717,
+    "missing_urls": 0,
+    "duplicate_rows_after_first_by_date_symbol_headline_url": 1824,
+    "missing_description": 6565,
+    "literal_nan_in_text": 1859,
+    "sources": 7,
+    "symbols": [
+      "BAY",
+      "BBL",
+      "KBANK",
+      "KKP",
+      "KTB",
+      "SCB",
+      "TISCO",
+      "TTB"
+    ]
+  },
+  "financial": {
+    "directory": "D:\\ผอ\\IEEE\\data\\raw\\financial",
+    "expected_symbols": [
+      "BBL",
+      "KBANK",
+      "KTB",
+      "SCB",
+      "BAY",
+      "TTB",
+      "KKP",
+      "TISCO"
+    ],
+    "files": 8,
+    "observed_symbols": [
+      "BAY",
+      "BBL",
+      "KBANK",
+      "KKP",
+      "KTB",
+      "SCB",
+      "TISCO",
+      "TTB"
+    ],
+    "rows_total": 5824,
+    "date_min": "2023-04-24T00:00:00",
+    "date_max": "2026-04-24T00:00:00",
+    "zero_volume_total": 448,
+    "invalid_ohlc_rows_total": 16,
+    "adjustment_metadata_present": false,
+    "official_trading_calendar_present": false
+  },
+  "gates": [
+    {
+      "gate": "P0.1 raw inputs readable and expected symbols present",
+      "status": "PASS",
+      "evidence": "news_rows=11440; financial_files=8; symbols=['BAY', 'BBL', 'KBANK', 'KKP', 'KTB', 'SCB', 'TISCO', 'TTB']"
+    },
+    {
+      "gate": "P0.2 duplicate policy can be applied",
+      "status": "ACTION_REQUIRED",
+      "evidence": "excess_exact_key_duplicates=1824"
+    },
+    {
+      "gate": "P0.3 publication timezone and availability verified",
+      "status": "BLOCKED",
+      "evidence": "CSV Date has no timezone/ingestion fields; verify source-level timezone before cutoff mapping."
+    },
+    {
+      "gate": "P0.4 official trading calendar and zero-volume semantics verified",
+      "status": "BLOCKED",
+      "evidence": "zero_volume_rows=448; official_calendar_in_bundle=False"
+    },
+    {
+      "gate": "P0.5 price adjustment and corporate actions verified",
+      "status": "BLOCKED",
+      "evidence": "Adjusted/unadjusted OHLC and corporate-action metadata are not identified in the supplied panel."
+    },
+    {
+      "gate": "P0.6 model checkpoint identity corrected",
+      "status": "ACTION_REQUIRED",
+      "evidence": "config.py points to airesearch/wangchanberta-base-att-spm-uncased; manuscript name must match."
+    }
+  ]
+}

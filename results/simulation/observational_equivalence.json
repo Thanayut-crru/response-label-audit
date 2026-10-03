@@ -1,0 +1,8 @@
+{
+  "n": 10000,
+  "observed_outcomes_identical": true,
+  "volume_identical_by_construction": true,
+  "component_active_world0": 0.0,
+  "component_active_world1": 0.7313,
+  "scope": "Only rules observing identical X,Y,V; text identifying components changes the premise."
+}

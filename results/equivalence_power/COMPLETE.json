@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-09-30T17:34:18.958176+00:00",
+  "datasets": [
+    "purged_pilot",
+    "historical_p2c"
+  ],
+  "margins": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "alpha": 0.05,
+  "family_alpha": 0.0125,
+  "target_power": 0.8,
+  "theta_for_equivalence_power": 0.0
+}

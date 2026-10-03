@@ -1,0 +1,87 @@
+{
+  "started_utc": "2026-09-28T07:34:21.860672+00:00",
+  "identity": {
+    "config.json": "5882ae29cc3780228ddf4b2e3c62cb7e803cf5a4c27e0972d36992c678e8f373",
+    "scripts\\00_snapshot.py": "c6698cfbf7cc1f9591e8c2e8b8bd7d70af0f6abceda6ee88c578021bd5cba1f7",
+    "scripts\\00b_snapshot_supplement.py": "e82502e3eb0ae5818ec56e09eafdb0795547f2d47cb5de724fa315b65032f5a5",
+    "scripts\\01_simulation.py": "a563333b8aa652b75ca0d69b637b4ea0a8b76d9191b9eeca98f7f795b444d293",
+    "scripts\\02_purged_pilot.py": "8fd7b4c5049c96eb77c90b3e091302398d9d339ee46ed0e4f267c694d4b0c494",
+    "scripts\\03_inference_and_report.py": "46de8cfa1ba0106404a97415bc8a3e48c3c3d526f9ee8c60ec9d78076243eb44",
+    "scripts\\04_build_manuscript.py": "de104c1809f5817e4de15356a8f2394a810215aa7b44bac65075e51e9e540936",
+    "scripts\\05_verify_artifacts.py": "9f3e5afafbe0899286c400e9594bf8a7f93df19debec72945fa34bba4355ce77",
+    "scripts\\06_build_docx.py": "6040569b12c5d45cccc21535bcce3b9885d73450e115f4b9b5123462a9a9c859",
+    "scripts\\07_power_analysis.py": "c359bcb7c5e576efed58c7a2a2e2c0c12c69b458a091e245b5620a4a32ea87d9",
+    "scripts\\08_manuscript_figures.py": "9d546dbc9f6e8843f8d40377c58586065a38f105441bcbbecfa796467af1ba2f",
+    "scripts\\09_build_goldset_sample.py": "96894366818e6ec885050e1ca619286a85a8a93aae43983899f33150ef417a49",
+    "scripts\\10_export_supabase_seed.py": "99b44eafd576ccd27481d07c597c776f952dba24cb94fe9037b8a5cca06debbd",
+    "scripts\\11_build_offline_tool.py": "270c112639e63bac5e368f7f1fb05d80f28540278a67d7b2a6743d6dee822dc3",
+    "scripts\\12_equivalence_power.py": "0384bd5dd3f37ccd83c27ba3700a6a5351cf1438ccdf3ff24f614ecc42dd2465",
+    "scripts\\13_factorial_ablation.py": "29d97943df32c47b6a0db72bf6d2aaa44a26a6648b95e75e3ea439599bec371b",
+    "scripts\\14_provenance_checks.py": "04c028bd225002e8e8cade0f4a13d4539de405b3ba653718ad59366732e8a0d3",
+    "scripts\\15_near_duplicate_sensitivity.py": "e452b83011ca2a37267b90a12c41ea4025dd06d06211eb7fe4d7fca4c343fc70",
+    "scripts\\16_fpa_component_ablation.py": "813985730339ab50cee35b5b854146ac9861f71b6b0e38deb89fbc1d77192401",
+    "scripts\\17_staleness.py": "53ba4922d0591d481093b69f2e9411dd21b94bb3046f7187fe85d30e52798db5",
+    "scripts\\18_simulation_extensions.py": "bd326b0a7be0beab0e10da2f3c566c7ddb5d42fc08d38b947b18fa3d37d1a19d",
+    "scripts\\19_freeze_protocol.py": "26e762116a44c50f31dc78bdec69e8efbc93d57eaa172942690abc97a8058cf5",
+    "scripts\\20_fnspid_prepare.py": "ae3cf6834c03344439e7a565eaf68d277226dd57fdb23766a793ba4db5cf9839",
+    "scripts\\21_fnspid_replication.py": "d5e61fec019fae919b2622bcd3f0b354d89bdda5c1ce53793e4e2422c341375c",
+    "scripts\\22_prediction_dispersion.py": "bef8412836bef97dbce65db0fd9eb0c800834ea8971f64b6123a8c0589ed74a6",
+    "scripts\\common.py": "75143453d6ca2888f0a3f12da8be532fe9f0b8049ed2617b042a61d3ad741b58",
+    "provenance\\source_code\\00_finetune_phayathai.py": "3c3e686f25cffc2f49eb7488e7a38d79eac9b29b1d8fde23f6db979c575929cd",
+    "provenance\\source_code\\01_build_pilot_labels.py": "453224727bf40d04c74e87ac7df577e40844a2df0400d7add047354cac6e3709",
+    "provenance\\source_code\\04_run_tfidf_label_methods.py": "1bfd9f9b9d9130ae983954a7c6709e0a107425bccb9267b51b924eab0b4c8065",
+    "provenance\\source_code\\06_run_known_truth_simulation.py": "91c490affdfa35ea6ff09705ff4318987990032e3bb577ec61c8e2e97c228ae9"
+  },
+  "config": {
+    "source_root": "D:/ผอ/IEEE",
+    "study_status": "RETROSPECTIVE_METHODS_STUDY_NOT_PREREGISTERED",
+    "simulation": {
+      "replications": 100,
+      "seed_start": 21001,
+      "n_train": 2400,
+      "n_test": 1200,
+      "features": 20,
+      "fixed_thresholds": [
+        0.2,
+        0.35,
+        0.5
+      ],
+      "primary_threshold": 0.35
+    },
+    "inference": {
+      "bootstrap_iterations": 10000,
+      "seed": 39001,
+      "block_lengths": [
+        10,
+        20,
+        40
+      ],
+      "primary_block_length": 20,
+      "relative_equivalence_margin": 0.02
+    },
+    "real_data": {
+      "purge_observed_sessions": 5,
+      "seeds": [
+        11,
+        23,
+        42,
+        71,
+        101
+      ],
+      "status": "EXPLORATORY_UNVERIFIED_TIMING_CALENDAR_ADJUSTMENTS"
+    },
+    "prohibited_evidence": [
+      "results/metrics/",
+      "PhaFin-FT-Random",
+      "in-sample PhaFin-FT performance",
+      "val_r as evidence of sentiment or forecasting quality"
+    ]
+  },
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0"
+  }
+}
