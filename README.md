@@ -123,10 +123,8 @@ by scripts 00 and 00b, which snapshot files from that project and cannot run els
 `25_threshold_sensitivity.py` is an exploratory analysis run after all locked results were known;
 it lies outside the locked protocol (deviation 4).
 
-The legacy file `provenance/source_code/00_finetune_phayathai.py` is kept only because run
-identities hash it. It is never executed, and the fine-tuned model it trained is excluded from all
-claims in the article. It would need PyTorch, Transformers, and the original project's `config`
-module.
+`provenance/source_code/00_finetune_phayathai.py` belongs to a separate project and plays no part in
+the article. It is kept only because run identities hash it, and it is never executed.
 
 ## External replication data (FNSPID)
 
