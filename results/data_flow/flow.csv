@@ -1,0 +1,14 @@
+step,count,unit
+news records in the source file,11440,records
+"exact duplicates removed (date, stock, headline, URL)",-1824,records
+unique articles,9616,articles
+not mapped to an observed trading session (after the last price date),-22,articles
+articles mapped to a stock and trading session,9594,articles
+mapped articles with empty text,0,articles
+mapped to a session without a valid outcome (zero-volume or invalid row),-581,articles
+articles in stock-day text bags,9013,articles
+stock-day text bags (one per stock and session),3561,stock-days
+bags whose RDFL label is defined (eligible),2684,stock-days
+bags retained for RDFL training (confidence >= 0.70),1722,stock-days
+bags in the seven test blocks from 2024-08-01 (evaluated),2197,stock-days
+evaluation dates,403,dates

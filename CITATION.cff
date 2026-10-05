@@ -17,6 +17,9 @@ authors:
   - family-names: "Binprathan"
     given-names: "Aree"
     affiliation: "Faculty of Social Sciences, Chiang Rai Rajabhat University"
+  - family-names: "Suantai"
+    given-names: "Suthep"
+    affiliation: "Faculty of Science, Chiang Mai University"
 preferred-citation:
   type: article
   title: "When Low Response Does Not Mean No Effect: A Methodological Audit of Response-Derived Weak Supervision for Financial News"
@@ -29,5 +32,7 @@ preferred-citation:
       given-names: "Tanaphong"
     - family-names: "Binprathan"
       given-names: "Aree"
+    - family-names: "Suantai"
+      given-names: "Suthep"
   journal: "FinTech"
   status: submitted

@@ -1,13 +1,79 @@
 {
-  "checked_utc": "2026-09-30T18:06:44.995949+00:00",
-  "files": 118,
+  "checked_utc": "2026-10-05T16:13:07.459412+00:00",
+  "files": 155,
   "summary": {
-    "identical": 103,
-    "identical lines": 12,
+    "identical": 134,
+    "identical lines": 18,
     "identical content, column order differs": 3
   },
   "problems": [],
   "details": [
+    {
+      "original": "block_stability/COMPLETE.json",
+      "rerun": "block_stability/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "block_stability/daily_loss_difference.csv",
+      "rerun": "block_stability/daily_loss_difference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "block_stability/leave_one_block_out.csv",
+      "rerun": "block_stability/leave_one_block_out.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "block_stability/REPORT.md",
+      "rerun": "block_stability/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "data_flow/articles_by_source.csv",
+      "rerun": "data_flow/articles_by_source.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "data_flow/COMPLETE.json",
+      "rerun": "data_flow/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "data_flow/facts.json",
+      "rerun": "data_flow/facts.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "data_flow/flow.csv",
+      "rerun": "data_flow/flow.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "data_flow/missing_description_by_stock.csv",
+      "rerun": "data_flow/missing_description_by_stock.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "data_flow/missing_description_by_year.csv",
+      "rerun": "data_flow/missing_description_by_year.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "data_flow/REPORT.md",
+      "rerun": "data_flow/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
     {
       "original": "equivalence_power/COMPLETE.json",
       "rerun": "equivalence_power/COMPLETE.json",
@@ -267,6 +333,96 @@
       "max_abs_gap": 0.0
     },
     {
+      "original": "historical_mean/comparisons.csv",
+      "rerun": "historical_mean/comparisons.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "historical_mean/COMPLETE.json",
+      "rerun": "historical_mean/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "historical_mean/history_means.csv",
+      "rerun": "historical_mean/history_means.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "historical_mean/intercept_only_by_block.csv",
+      "rerun": "historical_mean/intercept_only_by_block.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "historical_mean/REPORT.md",
+      "rerun": "historical_mean/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "historical_mean/summary.json",
+      "rerun": "historical_mean/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "loss_decomposition/COMPLETE.json",
+      "rerun": "loss_decomposition/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "loss_decomposition/fnspid_calibrated.csv",
+      "rerun": "loss_decomposition/fnspid_calibrated.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "loss_decomposition/fnspid_components.csv",
+      "rerun": "loss_decomposition/fnspid_components.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "loss_decomposition/fnspid_pilot.csv",
+      "rerun": "loss_decomposition/fnspid_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "loss_decomposition/REPORT.md",
+      "rerun": "loss_decomposition/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "loss_decomposition/summary.json",
+      "rerun": "loss_decomposition/summary.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "loss_decomposition/thai_calibration.csv",
+      "rerun": "loss_decomposition/thai_calibration.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "loss_decomposition/thai_components.csv",
+      "rerun": "loss_decomposition/thai_components.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "loss_decomposition/thai_pilot.csv",
+      "rerun": "loss_decomposition/thai_pilot.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
       "original": "near_duplicate_sensitivity/calibrated_predictions.csv",
       "rerun": "near_duplicate_sensitivity/calibrated_predictions.csv",
       "status": "identical",
@@ -489,6 +645,30 @@
       "max_abs_gap": 0.0
     },
     {
+      "original": "random_abstention/COMPLETE.json",
+      "rerun": "random_abstention/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "random_abstention/replications.csv",
+      "rerun": "random_abstention/replications.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "random_abstention/REPORT.md",
+      "rerun": "random_abstention/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "random_abstention/summary.csv",
+      "rerun": "random_abstention/summary.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
       "original": "report/absence_summary.csv",
       "rerun": "report/absence_summary.csv",
       "status": "identical",
@@ -551,6 +731,48 @@
     {
       "original": "report/simulation_paired_inference.csv",
       "rerun": "report/simulation_paired_inference.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "signal_contrasts/calibration_coefficients.csv",
+      "rerun": "signal_contrasts/calibration_coefficients.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "signal_contrasts/COMPLETE.json",
+      "rerun": "signal_contrasts/COMPLETE.json",
+      "status": "identical",
+      "max_abs_gap": null
+    },
+    {
+      "original": "signal_contrasts/fnspid_components_signal_contrasts.csv",
+      "rerun": "signal_contrasts/fnspid_components_signal_contrasts.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "signal_contrasts/fnspid_pilot_signal_contrasts.csv",
+      "rerun": "signal_contrasts/fnspid_pilot_signal_contrasts.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "signal_contrasts/REPORT.md",
+      "rerun": "signal_contrasts/REPORT.md",
+      "status": "identical lines",
+      "max_abs_gap": null
+    },
+    {
+      "original": "signal_contrasts/thai_components_signal_contrasts.csv",
+      "rerun": "signal_contrasts/thai_components_signal_contrasts.csv",
+      "status": "identical",
+      "max_abs_gap": 0.0
+    },
+    {
+      "original": "signal_contrasts/thai_pilot_signal_contrasts.csv",
+      "rerun": "signal_contrasts/thai_pilot_signal_contrasts.csv",
       "status": "identical",
       "max_abs_gap": 0.0
     },

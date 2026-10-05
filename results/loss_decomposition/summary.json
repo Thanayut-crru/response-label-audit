@@ -1,0 +1,38 @@
+{
+  "thai_pilot": {
+    "rows": 5,
+    "dates": 403,
+    "stock_days": 2197,
+    "max_identity_gap": 3.0531133177191805e-16
+  },
+  "thai_components": {
+    "rows": 11,
+    "dates": 403,
+    "stock_days": 2197,
+    "max_identity_gap": 2.7755575615628914e-16
+  },
+  "thai_calibration": {
+    "rows": 10,
+    "dates": 356,
+    "stock_days": 1980,
+    "max_identity_gap": 3.0184188481996443e-16
+  },
+  "fnspid_pilot": {
+    "rows": 5,
+    "dates": 426,
+    "stock_days": 1874,
+    "max_identity_gap": 3.608224830031759e-16
+  },
+  "fnspid_calibrated": {
+    "rows": 5,
+    "dates": 363,
+    "stock_days": 1616,
+    "max_identity_gap": 2.1510571102112408e-16
+  },
+  "fnspid_components": {
+    "rows": 11,
+    "dates": 426,
+    "stock_days": 1874,
+    "max_identity_gap": 4.718447854656915e-16
+  }
+}

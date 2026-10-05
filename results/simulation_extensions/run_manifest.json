@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-09-30T17:41:44.382150+00:00",
+  "started_utc": "2026-10-04T09:26:27.794384+00:00",
   "identity": {
     "config.json": "5882ae29cc3780228ddf4b2e3c62cb7e803cf5a4c27e0972d36992c678e8f373",
     "scripts\\00_snapshot.py": "bcc46d170f889057eebd2618705220077b8ef9c8e5a83e51592b4cc03e35f0e3",
@@ -23,6 +23,8 @@
     "scripts\\23_observable_bounds.py": "4402a978b9b2d69cd36f7cc18f2fd618784f2cfdc52adb9943bb019ee9b4b497",
     "scripts\\24_per_block_results.py": "81bfc5f868625ee2e7683fd0768f936e19b1491ffe533ef52698096d356f4008",
     "scripts\\25_threshold_sensitivity.py": "d32e72caa6c55b61bf9f6727ad196d79f5932adab4d349beaeb5adad8c661cbf",
+    "scripts\\26_loss_decomposition.py": "b2f2d1378e5ac4ab2639b0423419f684734368625416d3e46f00509c6a3ad2cb",
+    "scripts\\27_random_abstention.py": "86bd3b45332d8aecc610068a28c6b2e9bc77d8a3e62a4b774b391a36d83b8729",
     "scripts\\common.py": "75143453d6ca2888f0a3f12da8be532fe9f0b8049ed2617b042a61d3ad741b58",
     "provenance\\source_code\\00_finetune_phayathai.py": "3c3e686f25cffc2f49eb7488e7a38d79eac9b29b1d8fde23f6db979c575929cd",
     "provenance\\source_code\\01_build_pilot_labels.py": "c4c79373e53073fbacf416885de9ce90d5fe282d0a692cfcd999f26b2455e0e8",

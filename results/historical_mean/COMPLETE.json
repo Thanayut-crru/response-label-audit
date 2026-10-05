@@ -1,0 +1,24 @@
+{
+  "completed_utc": "2026-10-05T16:11:51.935360+00:00",
+  "block_length": 20,
+  "seed": 42001,
+  "comparisons": 12,
+  "datasets": {
+    "thai_pilot": {
+      "dates": 403,
+      "stock_days": 2197
+    },
+    "fnspid_pilot": {
+      "dates": 426,
+      "stock_days": 1874
+    },
+    "thai_calibrated": {
+      "dates": 356,
+      "stock_days": 1980
+    },
+    "fnspid_calibrated": {
+      "dates": 363,
+      "stock_days": 1616
+    }
+  }
+}

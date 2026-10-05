@@ -1,0 +1,16 @@
+{
+  "articles_with_one_stock_each": true,
+  "urls_mapped_to_more_than_one_stock": 524,
+  "stocks_per_evaluation_date": {
+    "min": 1,
+    "median": 5.0,
+    "max": 8
+  },
+  "stock_day_weight_range_relative_to_equal": [
+    0.6814516129032258,
+    5.451612903225806
+  ],
+  "text_rule": "model_text = headline + description, with missing or literal 'nan' descriptions replaced by an empty string before any split (01_build_pilot_labels.py)",
+  "audit_literal_nan_in_text_field": 1859,
+  "audit_missing_description": 6565
+}

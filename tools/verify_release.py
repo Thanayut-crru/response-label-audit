@@ -45,6 +45,15 @@ EXECUTED = {   # scripts each run executed, besides config.json, scripts/common.
     'per_block': ['scripts/24_per_block_results.py'],
     'threshold_sensitivity': ['scripts/25_threshold_sensitivity.py', 'scripts/12_equivalence_power.py',
                               'scripts/16_rdfl_component_ablation.py', 'scripts/21_fnspid_replication.py'],
+    'loss_decomposition': ['scripts/26_loss_decomposition.py'],
+    'random_abstention': ['scripts/27_random_abstention.py', 'scripts/18_simulation_extensions.py'],
+    'block_stability': ['scripts/28_block_stability.py', 'scripts/13_factorial_ablation.py',
+                        'scripts/12_equivalence_power.py'],
+    'signal_contrasts': ['scripts/29_signal_contrasts.py', 'scripts/16_rdfl_component_ablation.py',
+                         'scripts/12_equivalence_power.py'],
+    'historical_mean': ['scripts/30_historical_mean.py', 'scripts/13_factorial_ablation.py',
+                        'scripts/12_equivalence_power.py'],
+    'data_flow': ['scripts/31_data_flow.py'],
 }
 ALWAYS = ('config.json', 'scripts/common.py', 'provenance/source_code/', 'provenance/supplement/source_code/')
 VOLATILE = {'started_utc', 'completed_utc', 'generated_at_utc', 'identity', 'versions', 'python'}
